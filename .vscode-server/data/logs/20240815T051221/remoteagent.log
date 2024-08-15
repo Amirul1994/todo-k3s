@@ -1,0 +1,48 @@
+2024-08-15 05:12:21.572 [info] 
+
+
+
+
+2024-08-15 05:12:21.588 [info] Extension host agent started.
+2024-08-15 05:12:21.646 [info] Started initializing default profile extensions in extensions installation folder. file:///home/kc2m1/.vscode-server/extensions
+2024-08-15 05:12:21.648 [info] [<unknown>][c836f218][ManagementConnection] New connection established.
+2024-08-15 05:12:21.651 [info] [<unknown>][e8dcdb8d][ExtensionHostConnection] New connection established.
+2024-08-15 05:12:21.673 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/kc2m1/.vscode-server/extensions
+2024-08-15 05:12:21.806 [info] [<unknown>][e8dcdb8d][ExtensionHostConnection] <2573> Launched Extension Host Process.
+2024-08-15 05:17:21.590 [info] New EH opened, aborting shutdown
+2024-08-15 05:36:54.159 [info] [<unknown>][c836f218][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-15 05:37:10.900 [info] [<unknown>][cb9a99fd][ExtensionHostConnection] New connection established.
+2024-08-15 05:37:10.904 [info] [<unknown>][cb9a99fd][ExtensionHostConnection] <5731> Launched Extension Host Process.
+2024-08-15 05:37:10.907 [info] [<unknown>][b0d37823][ManagementConnection] New connection established.
+2024-08-15 05:37:13.457 [error] CodeExpectedError: Could not find pty on pty host
+    at k.U (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
+    at k.updateTitle (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26037)
+    at D.<computed> (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
+    at Object.call (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5378)
+    at c.s (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5506)
+    at c.q (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4947)
+    at w.value (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4247)
+    at i.B (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at i.fire (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:25:27395)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-08-15 05:37:13.459 [error] CodeExpectedError: Could not find pty on pty host
+    at k.U (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
+    at k.updateIcon (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26087)
+    at D.<computed> (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
+    at Object.call (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5378)
+    at c.s (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5506)
+    at c.q (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4947)
+    at w.value (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4247)
+    at i.B (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at i.fire (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:25:27395)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-08-15 05:42:11.212 [info] [<unknown>][e8dcdb8d][ExtensionHostConnection] <2573> Extension Host Process exited with code: 0, signal: null.
+2024-08-15 05:42:11.215 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/server/node/server.main.js:190:6369)
+    at process.emit (node:events:531:35)

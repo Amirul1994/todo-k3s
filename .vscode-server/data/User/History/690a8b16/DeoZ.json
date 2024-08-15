@@ -1,0 +1,18 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.startupEditor": "none",
+    "liveServer.settings.donotVerifyTags": true,
+    "window.zoomLevel": 2,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "remote.SSH.remotePlatform": {
+        "192.168.0.104": "linux",
+        "192.168.0.30": "linux",
+        "192.168.0.10": "linux",
+        "192.168.0.21": "linux"
+    }
+}

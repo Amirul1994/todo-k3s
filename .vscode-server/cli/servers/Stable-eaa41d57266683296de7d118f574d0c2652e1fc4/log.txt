@@ -1,0 +1,52 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-a223e0fa-3a11-4bc8-9d60-06749c42071f
+Extension host agent listening on /tmp/code-a223e0fa-3a11-4bc8-9d60-06749c42071f
+
+[11:32:37] 
+
+
+
+
+[11:32:38] Extension host agent started.
+[11:32:38] [<unknown>][601351c5][ExtensionHostConnection] New connection established.
+[11:32:38] [<unknown>][e913c82a][ManagementConnection] New connection established.
+[11:32:39] [<unknown>][601351c5][ExtensionHostConnection] <1731> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at k.U (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
+    at k.updateIcon (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26087)
+    at D.<computed> (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
+    at Object.call (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5378)
+    at c.s (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5506)
+    at c.q (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4947)
+    at w.value (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4247)
+    at i.B (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at i.fire (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:25:27395)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[11:32:43] Error [CodeExpectedError]: Could not find pty on pty host
+    at k.U (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
+    at k.updateIcon (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26087)
+    at D.<computed> (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
+    at Object.call (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5378)
+    at c.s (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5506)
+    at c.q (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4947)
+    at w.value (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4247)
+    at i.B (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at i.fire (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:25:27395)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+New EH opened, aborting shutdown
+[11:37:38] New EH opened, aborting shutdown
+[14:02:09] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[14:02:09] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

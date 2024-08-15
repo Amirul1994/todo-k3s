@@ -1,0 +1,91 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.2.0
+2 info using node@v18.19.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 14ms
+6 timing config:load:builtin Completed in 15ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/kc2m1/.cache/typescript/5.5/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:/home/kc2m1/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 27ms
+17 timing npm:load:configload Completed in 27ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install @types/dot@ts5.5
+21 verbose argv "install" "--ignore-scripts" "@types/dot@ts5.5" "--save-dev" "--user-agent" "typesInstaller/5.5.4"
+22 timing npm:load:setTitle Completed in 3ms
+23 timing config:load:flatten Completed in 7ms
+24 timing npm:load:display Completed in 9ms
+25 verbose logfile logs-max:10 dir:/home/kc2m1/.npm/_logs/2024-08-15T05_49_36_197Z-
+26 verbose logfile /home/kc2m1/.npm/_logs/2024-08-15T05_49_36_197Z-debug-0.log
+27 timing npm:load:logFile Completed in 13ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 54ms
+31 silly logfile done cleaning log files
+32 timing config:load:flatten Completed in 1ms
+33 timing arborist:ctor Completed in 2ms
+34 timing idealTree:init Completed in 52ms
+35 timing arborist:ctor Completed in 1ms
+36 http fetch GET 200 https://registry.npmjs.org/@types%2fdot 2155ms (cache miss)
+37 timing idealTree:userRequests Completed in 2173ms
+38 silly idealTree buildDeps
+39 silly fetch manifest @types/dot@1.1.7
+40 silly placeDep ROOT @types/dot@1.1.7 OK for:  want: 1.1.7
+41 timing idealTree:#root Completed in 8ms
+42 timing idealTree:node_modules/@types/dot Completed in 0ms
+43 timing idealTree:buildDeps Completed in 10ms
+44 timing idealTree:fixDepFlags Completed in 1ms
+45 timing idealTree Completed in 2237ms
+46 timing reify:loadTrees Completed in 2239ms
+47 timing reify:diffTrees Completed in 4ms
+48 silly reify moves {}
+49 timing reify:retireShallow Completed in 2ms
+50 timing reify:createSparse Completed in 7ms
+51 timing reify:loadBundles Completed in 0ms
+52 silly audit bulk request {
+52 silly audit   '@types/body-parser': [ '1.19.5' ],
+52 silly audit   '@types/connect': [ '3.4.38' ],
+52 silly audit   '@types/d': [ '1.0.4' ],
+52 silly audit   '@types/express': [ '4.17.21' ],
+52 silly audit   '@types/express-serve-static-core': [ '4.19.5' ],
+52 silly audit   '@types/http-errors': [ '2.0.4' ],
+52 silly audit   '@types/mime': [ '1.3.5' ],
+52 silly audit   '@types/node': [ '22.3.0' ],
+52 silly audit   '@types/qs': [ '6.9.15' ],
+52 silly audit   '@types/range-parser': [ '1.2.7' ],
+52 silly audit   '@types/send': [ '0.17.4' ],
+52 silly audit   '@types/serve-static': [ '1.15.7' ],
+52 silly audit   'types-registry': [ '0.1.685' ],
+52 silly audit   'undici-types': [ '6.18.2' ],
+52 silly audit   '@types/dot': [ '1.1.7' ]
+52 silly audit }
+53 silly tarball no local data for @types/dot@https://registry.npmjs.org/@types/dot/-/dot-1.1.7.tgz. Extracting by manifest.
+54 http fetch GET 200 https://registry.npmjs.org/@types/dot/-/dot-1.1.7.tgz 228ms (cache miss)
+55 timing reifyNode:node_modules/@types/dot Completed in 240ms
+56 timing reify:unpack Completed in 241ms
+57 timing reify:unretire Completed in 1ms
+58 timing build:queue Completed in 0ms
+59 timing build:deps Completed in 3ms
+60 timing build Completed in 3ms
+61 timing reify:build Completed in 4ms
+62 timing reify:trash Completed in 0ms
+63 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 274ms
+64 timing auditReport:getReport Completed in 279ms
+65 silly audit report {}
+66 timing auditReport:init Completed in 0ms
+67 timing reify:audit Completed in 279ms
+68 timing reify:save Completed in 28ms
+69 timing reify Completed in 2543ms
+70 silly ADD node_modules/@types/dot
+71 timing command:install Completed in 2553ms
+72 verbose exit 0
+73 timing npm Completed in 2631ms
+74 info ok
