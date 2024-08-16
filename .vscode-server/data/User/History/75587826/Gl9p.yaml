@@ -1,0 +1,7 @@
+name: Build API Gateway Docker Image and Push
+
+on:
+  push:
+    branches:
+      - main
+

@@ -1,0 +1,10 @@
+2024-08-16 13:08:56.459 [info] 
+
+
+
+
+2024-08-16 13:08:56.487 [info] Extension host agent started.
+2024-08-16 13:08:56.544 [info] [<unknown>][26e8c96b][ExtensionHostConnection] New connection established.
+2024-08-16 13:08:56.551 [info] [<unknown>][b65088e3][ManagementConnection] New connection established.
+2024-08-16 13:08:56.907 [info] Deleted uninstalled extension from disk ms-vscode.makefile-tools /home/kc2m1/.vscode-server/extensions/ms-vscode.makefile-tools-0.10.26
+2024-08-16 13:08:57.152 [info] [<unknown>][26e8c96b][ExtensionHostConnection] <1759> Launched Extension Host Process.

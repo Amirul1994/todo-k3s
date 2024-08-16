@@ -37,3 +37,74 @@ npm init
 npm install express
 npm install dotenv
 sudo poweroff
+curl http://localhost:3000/health-check
+curl http://localhost:5000/health-check
+curl http://localhost:3000/health-check
+ssh-keygen
+cat /home/kc2m1/.ssh/id_ed25519.pub
+ssh-keygen -t rsa
+cat /home/kc2m1/.ssh/id_rsa.pub
+git init
+git remote add origin https://github.com/Amirul1994/todo-k3s.git
+git add .
+git branch -M main
+git commit -m "added source"
+git config --global user.email "amirulbrinto90@gmail.com"
+git config --global user.name "amirul1994"
+git commit -m "added source"
+sudo vim .gitignore
+docker build -t api-gateway .
+sudo docker build -t api-gateway .
+cd api-gateway/
+sudo docker build -t api-gateway .
+clear
+sudo poweroff
+cd api-gateway/
+node index.js 
+cd api-gateway/
+make
+make build
+clear
+make build
+sudo make build
+make run
+sudo make run
+npm i express
+sudo make run
+sudo make build
+sudo make run
+cd api-gateway/
+sudo make run
+sudo make rm
+sudo make run
+sudo make rm
+docker ps
+sudo docker ps
+sudo make run
+sudo make build
+sudo make run
+sudo make rm
+sudo make run
+sudo make rm
+sudo make build
+sudo make run
+sudo docker ps 
+sudo dcoker ps -a
+sudo docker ps -a
+sudo docker rm exc 
+sudo docker rm exciting_agnesi
+sudo docker stop exciting_agnesi
+sudo docker rm exciting_agnesi
+sudo make build
+sudo make run
+sudo docker ps 
+sudo docker ps -a
+sudo make rm
+sudo docker ps -a
+sudo make build
+sudo make run
+cd api-gateway/
+git branch
+git add .
+git commit -m "added workflow"
+sudo poweroff

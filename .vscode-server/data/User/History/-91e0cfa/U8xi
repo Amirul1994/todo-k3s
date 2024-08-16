@@ -1,0 +1,14 @@
+VERSION := v0.01
+IMAGE_NAME := api-gateway
+HOST_PORT := 8000
+CONTAINER_PORT := 3000
+CONTAINER_NAME := api-gateway
+
+build:
+	@docker build -t ${IMAGE_NAME}:${VERSION} .
+
+run:
+	@docker run --name -p ${HOST_PORT}:${CONTAINER_PORT} ${IMAGE_NAME}:${VERSION}
+
+rm:
+   @ docker rm ${CONTAINER_NAME}

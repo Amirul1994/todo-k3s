@@ -5,18 +5,47 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-a223e0fa-3a11-4bc8-9d60-06749c42071f
-Extension host agent listening on /tmp/code-a223e0fa-3a11-4bc8-9d60-06749c42071f
+Server bound to /tmp/code-86e2ae20-82c6-4b19-b38c-289924d9e52e
+Extension host agent listening on /tmp/code-86e2ae20-82c6-4b19-b38c-289924d9e52e
 
-[11:32:37] 
-
-
+[03:22:56] 
 
 
-[11:32:38] Extension host agent started.
-[11:32:38] [<unknown>][601351c5][ExtensionHostConnection] New connection established.
-[11:32:38] [<unknown>][e913c82a][ManagementConnection] New connection established.
-[11:32:39] [<unknown>][601351c5][ExtensionHostConnection] <1731> Launched Extension Host Process.
+
+
+[03:22:56] Extension host agent started.
+[03:22:57] [<unknown>][bbb9aa13][ExtensionHostConnection] New connection established.
+[03:22:57] [<unknown>][c92e0fbb][ManagementConnection] New connection established.
+[03:22:58] [<unknown>][bbb9aa13][ExtensionHostConnection] <1785> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at k.U (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
+    at k.updateTitle (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26037)
+    at D.<computed> (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
+    at Object.call (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5378)
+    at c.s (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5506)
+    at c.q (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4947)
+    at w.value (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4247)
+    at i.B (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at i.fire (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:25:27395)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:23:01] Error [CodeExpectedError]: Could not find pty on pty host
+    at k.U (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
+    at k.updateTitle (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26037)
+    at D.<computed> (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
+    at Object.call (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5378)
+    at c.s (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5506)
+    at c.q (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4947)
+    at w.value (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4247)
+    at i.B (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at i.fire (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:25:27395)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
 rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
 stack trace: CodeExpectedError: Could not find pty on pty host
     at k.U (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
@@ -32,7 +61,7 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:519:28)
     at emit (node:internal/child_process:951:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[11:32:43] Error [CodeExpectedError]: Could not find pty on pty host
+[03:23:01] Error [CodeExpectedError]: Could not find pty on pty host
     at k.U (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
     at k.updateIcon (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26087)
     at D.<computed> (/home/kc2m1/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
@@ -46,7 +75,51 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:519:28)
     at emit (node:internal/child_process:951:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:24:11] Getting Manifest... ms-vscode.makefile-tools
+[03:24:11] Installing extension: ms-vscode.makefile-tools {
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: v {
+    scheme: 'file',
+    authority: '',
+    path: '/home/kc2m1/.vscode-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/kc2m1/.vscode-server/extensions/extensions.json',
+    _fsPath: '/home/kc2m1/.vscode-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.92.1', date: '2024-08-07T20:16:39.455Z' }
+}
+[03:24:21] Extension signature verification result for ms-vscode.makefile-tools: Success. Executed: true. Duration: 5394ms.
+[03:24:21] Extracted extension to file:///home/kc2m1/.vscode-server/extensions/ms-vscode.makefile-tools-0.10.26: ms-vscode.makefile-tools
+[03:24:21] Renamed to /home/kc2m1/.vscode-server/extensions/ms-vscode.makefile-tools-0.10.26
+[03:24:21] Extension installed successfully: ms-vscode.makefile-tools file:///home/kc2m1/.vscode-server/extensions/extensions.json
 New EH opened, aborting shutdown
-[11:37:38] New EH opened, aborting shutdown
-[14:02:09] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
-[14:02:09] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[03:27:56] New EH opened, aborting shutdown
+[03:28:28] Getting Manifest... akhail.save-typing
+[03:28:44] Downloaded extension to file:///home/kc2m1/.vscode-server/data/CachedExtensionVSIXs/0e04ae32-7175-4625-a463-c3b7e676622e
+[03:28:44] Installing extension: akhail.save-typing {
+  installPreReleaseVersion: false,
+  donotIncludePackAndDependencies: true,
+  keepExisting: true,
+  installOnlyNewlyAddedFromExtensionPack: false,
+  isApplicationScoped: false,
+  profileLocation: v {
+    scheme: 'file',
+    authority: '',
+    path: '/home/kc2m1/.vscode-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/kc2m1/.vscode-server/extensions/extensions.json',
+    _fsPath: '/home/kc2m1/.vscode-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.92.1', date: '2024-08-07T20:16:39.455Z' }
+}
+[03:28:44] Installing the extension without checking dependencies and pack akhail.save-typing
+[03:28:44] Extracted extension to file:///home/kc2m1/.vscode-server/extensions/akhail.save-typing-0.1.0: akhail.save-typing
+[03:28:44] Renamed to /home/kc2m1/.vscode-server/extensions/akhail.save-typing-0.1.0
+[03:28:44] Extension installed successfully: akhail.save-typing file:///home/kc2m1/.vscode-server/extensions/extensions.json
+[03:46:37] Uninstalling extension from the profile: ms-vscode.makefile-tools@0.10.26 file:///home/kc2m1/.vscode-server/extensions/extensions.json
+[03:46:37] Marked extension as uninstalled ms-vscode.makefile-tools-0.10.26
+[03:46:37] Successfully uninstalled extension from the profile ms-vscode.makefile-tools@0.10.26 file:///home/kc2m1/.vscode-server/extensions/extensions.json

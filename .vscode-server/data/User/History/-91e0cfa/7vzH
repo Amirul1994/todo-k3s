@@ -1,0 +1,5 @@
+VERSION := v0.01
+IMAGE_NAME := api-gateway
+
+build:
+    @ docker build -t ${IMAGE_NAME}:${VERSION} .

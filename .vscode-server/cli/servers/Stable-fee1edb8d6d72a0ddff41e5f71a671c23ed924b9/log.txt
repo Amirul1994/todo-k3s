@@ -1,0 +1,20 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-af06a2e9-6b49-4543-9e0c-6d1526817335
+Extension host agent listening on /tmp/code-af06a2e9-6b49-4543-9e0c-6d1526817335
+
+[13:08:56] 
+
+
+
+
+[13:08:56] Extension host agent started.
+[13:08:56] [<unknown>][26e8c96b][ExtensionHostConnection] New connection established.
+[13:08:56] [<unknown>][b65088e3][ManagementConnection] New connection established.
+[13:08:56] Deleted uninstalled extension from disk ms-vscode.makefile-tools /home/kc2m1/.vscode-server/extensions/ms-vscode.makefile-tools-0.10.26
+[13:08:57] [<unknown>][26e8c96b][ExtensionHostConnection] <1759> Launched Extension Host Process.

@@ -1,0 +1,4 @@
+2024-08-16 03:28:28.799 [error] node #9: https://akhail.gallerycdn.vsassets.io/extensions/akhail/save-typing/0.1.0/1509484802037/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError [ETIMEDOUT]: 
+2024-08-16 03:28:42.245 [error] node #10: https://akhail.gallery.vsassets.io/_apis/public/gallery/publisher/akhail/extension/save-typing/0.1.0/assetbyname/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError [ETIMEDOUT]: 
+2024-08-16 03:28:44.503 [error] node #12: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2024-08-16 03:46:37.479 [error] node #15: https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-vscode/extensions/makefile-tools/0.10.26/stats?statType=uninstall - error POST AggregateError [ETIMEDOUT]: 

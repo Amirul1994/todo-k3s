@@ -1,0 +1,8 @@
+VERSION := v0.01
+IMAGE_NAME := api-gateway
+
+build:
+	@docker build -t ${IMAGE_NAME}:${VERSION} .
+
+run: 
+  @docker run -p 8000:3000 ${IMAGE_NAME}:${VERSION}
