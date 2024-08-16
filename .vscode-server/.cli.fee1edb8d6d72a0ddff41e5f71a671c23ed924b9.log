@@ -1,7 +1,5 @@
-Listening on 127.0.0.1:35483
-[2024-08-16 13:08:18] info Disposed of connection to running server.
-looking for token 2c571b49-9dcb-4fef-99ec-72f4c112fa30, got Some("2c571b49-9dcb-4fef-99ec-72f4c112fa30")
-[2024-08-16 13:08:18] info Checking /home/kc2m1/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/log.txt and /home/kc2m1/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/pid.txt for a running server...
-[2024-08-16 13:08:19] info Downloading Visual Studio Code server -> /tmp/.tmp5CioBL/vscode-server-linux-x64.tar.gz
-[2024-08-16 13:08:56] info Starting server...
-[2024-08-16 13:08:56] info Server started
+Listening on 127.0.0.1:41647
+[2024-08-16 14:10:20] info Disposed of connection to running server.
+looking for token 7f504709-2cd1-48ec-a8a1-22a9b0f64241, got Some("7f504709-2cd1-48ec-a8a1-22a9b0f64241")
+[2024-08-16 14:10:20] info Checking /home/kc2m1/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/log.txt and /home/kc2m1/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/pid.txt for a running server...
+[2024-08-16 14:10:20] info Found running server (pid=1716)

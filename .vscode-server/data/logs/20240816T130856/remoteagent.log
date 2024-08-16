@@ -8,3 +8,12 @@
 2024-08-16 13:08:56.551 [info] [<unknown>][b65088e3][ManagementConnection] New connection established.
 2024-08-16 13:08:56.907 [info] Deleted uninstalled extension from disk ms-vscode.makefile-tools /home/kc2m1/.vscode-server/extensions/ms-vscode.makefile-tools-0.10.26
 2024-08-16 13:08:57.152 [info] [<unknown>][26e8c96b][ExtensionHostConnection] <1759> Launched Extension Host Process.
+2024-08-16 13:13:56.488 [info] New EH opened, aborting shutdown
+2024-08-16 14:10:07.562 [info] [<unknown>][b65088e3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-16 14:10:20.519 [info] [<unknown>][5aab18e9][ExtensionHostConnection] New connection established.
+2024-08-16 14:10:20.525 [info] [<unknown>][5aab18e9][ExtensionHostConnection] <10668> Launched Extension Host Process.
+2024-08-16 14:10:20.526 [info] [<unknown>][bdc6841e][ManagementConnection] New connection established.
+2024-08-16 14:15:20.978 [info] [<unknown>][26e8c96b][ExtensionHostConnection] <1759> Extension Host Process exited with code: 0, signal: null.
+2024-08-16 14:15:20.983 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/kc2m1/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/server/node/server.main.js:190:6369)
+    at process.emit (node:events:531:35)
