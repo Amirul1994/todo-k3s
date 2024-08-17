@@ -188,3 +188,11 @@ sudo netstat -ltn
 sudo iptables -L 
 sudo iptables -I OUTPUT -p tcp --dport 443 -j ACCEPT
 sudo iptables -L 
+git commit -m "added workflow"
+git push -u origin main
+git add .
+git commit -m "added workflow"
+git push -u origin main
+cd api-gateway/
+make login
+sudo poweroff
