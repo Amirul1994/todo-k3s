@@ -1,0 +1,7 @@
+version: '3.8' 
+
+services:
+  api-gateway: 
+    image: amirul94/api-gateway:v0.01
+    ports:
+      - '5000:3000'

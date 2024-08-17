@@ -48,3 +48,23 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
 New EH opened, aborting shutdown
 [11:58:27] New EH opened, aborting shutdown
+[12:04:54] Getting Manifest... ms-azuretools.vscode-docker
+[12:04:54] Installing extension: ms-azuretools.vscode-docker {
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: v {
+    scheme: 'file',
+    authority: '',
+    path: '/home/kc2m1/.vscode-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/kc2m1/.vscode-server/extensions/extensions.json',
+    _fsPath: '/home/kc2m1/.vscode-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.92.2', date: '2024-08-14T17:29:30.058Z' }
+}
+[12:04:59] Extension signature verification result for ms-azuretools.vscode-docker: Success. Executed: true. Duration: 1891ms.
+[12:04:59] Extracted extension to file:///home/kc2m1/.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.2: ms-azuretools.vscode-docker
+[12:04:59] Renamed to /home/kc2m1/.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.2
+[12:04:59] Extension installed successfully: ms-azuretools.vscode-docker file:///home/kc2m1/.vscode-server/extensions/extensions.json

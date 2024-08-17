@@ -14,3 +14,4 @@ app.use('/',routes);
 app.listen(port,()=>{
     console.log(`api gateway is running at port: ${port}`)
 })
+
