@@ -17,7 +17,7 @@ jobs:
         run: |
           cd api-gateway
           make build
-          # docker build -t api-gateway:v1.0.0 .
+          
       
       - name: Docker Login
         run: |
@@ -37,15 +37,15 @@ jobs:
     
       - name: Docker Build
         run: |
-          cd api-gateway
+          cd todo-service
           make build
           
       - name: Docker Login
         run: |
-          cd api-gateway
+          cd todo-service
           make login
       
       - name: Docker Push
         run: |
-          cd api-gateway
+          cd todo-service
           make push
