@@ -29,24 +29,23 @@ jobs:
           cd api-gateway
           make push
     
- todo-build-push:
-   runs-on: ubuntu-latest
-   steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+  todo-build-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
     
-    - name: Docker Build
-      run: |
-        cd api-gateway
-        make build
+      - name: Docker Build
+        run: |
+          cd api-gateway
+          make build
           
+      - name: Docker Login
+        run: |
+          cd api-gateway
+          make login
       
-    - name: Docker Login
-      run: |
-        cd api-gateway
-        make login
-      
-    - name: Docker Push
-      run: |
-        cd api-gateway
-        make push
+      - name: Docker Push
+        run: |
+          cd api-gateway
+          make push
