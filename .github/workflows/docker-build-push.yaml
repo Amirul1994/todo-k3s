@@ -24,8 +24,8 @@ jobs:
           cd api-gateway
           make login
     
-    push:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout Repository
-          uses: actions/checkout@v2
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
