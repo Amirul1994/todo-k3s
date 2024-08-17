@@ -5,22 +5,17 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-af06a2e9-6b49-4543-9e0c-6d1526817335
-Extension host agent listening on /tmp/code-af06a2e9-6b49-4543-9e0c-6d1526817335
+Server bound to /tmp/code-1956afc7-c33a-43df-af9e-915c255d73de
+Extension host agent listening on /tmp/code-1956afc7-c33a-43df-af9e-915c255d73de
 
-[13:08:56] 
-
-
+[03:58:44] 
 
 
-[13:08:56] Extension host agent started.
-[13:08:56] [<unknown>][26e8c96b][ExtensionHostConnection] New connection established.
-[13:08:56] [<unknown>][b65088e3][ManagementConnection] New connection established.
-[13:08:56] Deleted uninstalled extension from disk ms-vscode.makefile-tools /home/kc2m1/.vscode-server/extensions/ms-vscode.makefile-tools-0.10.26
-[13:08:57] [<unknown>][26e8c96b][ExtensionHostConnection] <1759> Launched Extension Host Process.
+
+
+[03:58:44] Extension host agent started.
+[03:58:44] [<unknown>][54da9ff0][ExtensionHostConnection] New connection established.
+[03:58:44] [<unknown>][91a34ace][ManagementConnection] New connection established.
+[03:58:45] [<unknown>][54da9ff0][ExtensionHostConnection] <1809> Launched Extension Host Process.
 New EH opened, aborting shutdown
-[13:13:56] New EH opened, aborting shutdown
-[14:10:07] [<unknown>][b65088e3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[14:10:20] [<unknown>][5aab18e9][ExtensionHostConnection] New connection established.
-[14:10:20] [<unknown>][5aab18e9][ExtensionHostConnection] <10668> Launched Extension Host Process.
-[14:10:20] [<unknown>][bdc6841e][ManagementConnection] New connection established.
+[04:03:44] New EH opened, aborting shutdown
