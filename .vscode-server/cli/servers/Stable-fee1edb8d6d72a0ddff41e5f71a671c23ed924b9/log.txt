@@ -17,3 +17,5 @@ Extension host agent listening on /tmp/code-e763ce82-d627-4bc1-bedb-455b286a4b2b
 [04:53:12] [<unknown>][35474eda][ManagementConnection] New connection established.
 [04:53:12] [<unknown>][76303660][ExtensionHostConnection] New connection established.
 [04:53:13] [<unknown>][76303660][ExtensionHostConnection] <1946> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[04:58:11] New EH opened, aborting shutdown
