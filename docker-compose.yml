@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   api-gateway: 
-    image: amirul94/api-gateway:v0.01
+    image: amirul94/api-gateway:v0.0.2
     ports:
       - '5000:3000'
   redis:
@@ -10,3 +10,6 @@ services:
     ports:
       - '6379:6379'
       - '8001:8001'
+  todo-service:
+    image: amirul94/todo-service:v0.02
+    
