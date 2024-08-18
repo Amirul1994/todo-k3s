@@ -3,6 +3,8 @@ version: '3.8'
 services:
   api-gateway: 
     image: amirul94/api-gateway:v0.0.2
+    environment:
+      TODO_SERVICE_URL: http://todo-service:3000
     ports:
       - '5000:3000'
   redis:
@@ -11,5 +13,7 @@ services:
       - '6379:6379'
       - '8001:8001'
   todo-service:
-    image: amirul94/todo-service:v0.02
+    image: amirul94/todo-service:v0.0.2
+    environment:
+      REDIS_URL: redis://redis:6379
     
