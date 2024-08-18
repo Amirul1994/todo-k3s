@@ -196,3 +196,82 @@ git push -u origin main
 cd api-gateway/
 make login
 sudo poweroff
+cd api-gateway/
+cd
+git add .
+git commit -m "added workflow"
+git push -u origin main
+sudo docker compose up  
+sudo docker ps -a
+sudo docker rm kc2m1-api-gateway-1 
+sudo docker images
+sudo docker images rm amirul94/api-gateway
+sudo docker images delete  amirul94/api-gateway
+sudo docker rmi amirul94/api-gateway
+sudo dcoker images
+sudo docker images
+sudo docker rmi ffddb729f0b4
+clear
+sudo docker ps -a
+sudo docker stop f98b8dfb58b5
+sudo docker images
+sudo docker rmi 9962fce42c8b 2ee339159ab9
+sudo docker rmi -f 2ee339159ab9
+sudo docker ps
+sudo docker ps -a
+sudo docker rm f98b8dfb58b5
+sudo docker ps -a
+clear
+git add .
+sudo make build
+make build
+cd api-gateway/
+sudo make build
+sudo make run
+git add .
+git commit -m "added todo-service"
+sudo docker compose up
+git add .
+git commit -m "added workflow"
+git push -u origin main
+sudo docker compose up
+clear
+sudo docker compose up
+cd todo-service/
+npm init
+npm i express
+npm install node
+sudo apt update -y
+sudo apt install nodejs
+node i dotenv
+npm install dotenv
+npm install express
+cd
+git add .
+git commit -m "added todo service"
+git push -u origin main
+git add .
+git commit -m "added workflow"
+git push -u origin main
+git add .
+git commit -m "added workflow"
+git push -u origin main
+git add .
+git commit -m "added workflow"
+git push -u origin main
+cd todo-service/
+npm install redis
+npm install uuid
+node index.js
+cd
+git add .
+git commit -m "added todo-service"
+cd todo-service/
+node index.js 
+cd
+git push -u origin main
+cd todo-service/
+node index.js
+curl -X POST http://localhost:5001/ -H "Content-Type: application/json" -d '{"task": "Sample Task 1"}'
+curl -X POST http://localhost:5001/task -H "Content-Type: application/json" -d '{"task": "Sample Task 1"}'
+sudo poweroff
