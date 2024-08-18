@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   api-gateway: 
-    image: amirul94/api-gateway:v0.0.2
+    image: amirul94/api-gateway:v0.0.3
     environment:
       TODO_SERVICE_URL: http://todo-service:3000
     ports:
