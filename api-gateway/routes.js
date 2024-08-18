@@ -1,4 +1,4 @@
-const { axios } = require('axios');
+const axios = require('axios');
 const express = require('express');
 const router = express.Router();
 const TODO_SERVICE_URL = process.env.TODO_SERVICE_URL;
